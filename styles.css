@@ -340,10 +340,11 @@ h3 {
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
+    display: flex;
     flex-wrap: wrap;
 }
 .neotext {
-    width: 55%;  
+    width: 100%;  
 }
 
 .image1 {
@@ -351,7 +352,7 @@ h3 {
 }
 
 .neo p {
-    font-size: 24px;
+    font-size: 16px;
     width: 100%;
     text-align: justify;
 }
@@ -364,8 +365,11 @@ footer {
     border: 2px solid #155EEF;
     border-radius: 8px;
     margin: 2%;   
-    font-size: 24px; 
     flex-wrap: wrap;  
+}
+
+.img_div {
+    width: 12%;
 }
 
 .vector {
@@ -374,8 +378,7 @@ footer {
 
 .copyright {
     font-size: 17px;
-    align-items: center;
-}
+    padding: 2% 20%;}
 }
     
 
