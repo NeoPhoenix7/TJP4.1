@@ -15,6 +15,8 @@ body {
 /* Header */
 header {
     margin-bottom: 1%;
+    z-index: 1;
+    position: relative;
 }
 
 header, footer {
@@ -64,6 +66,10 @@ nav button {
 }
 
 .hamburger {
+    display: none;
+}
+
+.nav2, .close_menu {
     display: none;
 }
 
@@ -242,9 +248,49 @@ header > nav {
 }
 
 .hamburger {
+    display: block;
+}
+
+.hamburger_close {
+    width: 20%;
+
+.hamburger.hide {
+    display: none;
+}
+
+.nav2 {
+    font-family: 'Halant';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+    display: none;
+    flex-direction: column;
+    z-index: 3;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    padding-top: 5%;
+    color: #041330;
+}
+
+.nav2.visible {
     display: flex;
-    justify-content: flex-end;
-    width: 30%;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: #041330;
+}
+
+.close_menu.inactive {
+    display: none;
+}
+
+.close_menu.hide {
+    display: none;
 }
 
 section {
