@@ -11,5 +11,5 @@ hamburger.addEventListener('click', ()=> {
 close.addEventListener('click', ()=> {
     close.classList.add('hide');
     hamburger.classList.remove('hide');
-    nav2.classList.toggle('hide')
+    nav2.classList.toggle('visible')
 })
